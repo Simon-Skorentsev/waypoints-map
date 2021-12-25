@@ -1,0 +1,8 @@
+.App {
+	display: flex;
+	justify-content: center;
+
+	margin: 8px;
+	margin-top: 8px;
+	gap: 16px;
+}

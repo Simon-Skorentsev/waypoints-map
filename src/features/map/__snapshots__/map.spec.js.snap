@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shoud render waypointsList and waypoints input 1`] = `
+Array [
+  <div
+    className="map"
+    id="map"
+  />,
+  <div
+    className="waypoints"
+  >
+    <div
+      className="MuiFormControl-root MuiTextField-root wpInput css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      onKeyDown={[Function]}
+    >
+      <label
+        className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink={false}
+      >
+        Введите название метки
+      </label>
+      <div
+        className="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value=""
+        />
+        <fieldset
+          aria-hidden={true}
+          className="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+        >
+          <legend
+            className="css-173wfxe"
+          >
+            <span>
+              Введите название метки
+            </span>
+          </legend>
+        </fieldset>
+      </div>
+    </div>
+    <ul
+      className="MuiList-root MuiList-padding waypointsList css-h4y409-MuiList-root"
+    />
+  </div>,
+]
+`;
